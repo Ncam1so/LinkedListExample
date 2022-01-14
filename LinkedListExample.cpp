@@ -1,4 +1,5 @@
 // LinkedList Example : Console Application
+//gui linked list implementation
 #include "stdafx.h"
 #include "MyList.h" 
 #include <iostream>
@@ -7,7 +8,7 @@ using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[]){
 	List L;
-	Init (L);
+	Init (L);//list initialisation
 	Insert ("musa", L); Insert ("jane", L); Insert ("smile", L); ShowData (L);
 	Delete ("jane",L);ShowData (L); 
 	
